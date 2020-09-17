@@ -165,8 +165,6 @@
           <div class="heading text-center mb-50">
             <span class="heading__subtitle">Media dan Informasi</span>
             <h2 class="heading__title">Berita dan Informasi Terbaru</h2>
-            <p class="heading__desc">Follow our latest news and thoughts which focuses exclusively on insight,
-              industry trends, top news headlines.</p>
           </div><!-- /.heading -->
         </div><!-- /.col-lg-6 -->
       </div><!-- /.row-->
@@ -182,14 +180,14 @@
             <div class="blog__content">
               <div class="blog__meta">
                 <div class="blog__meta-cat">
-                  <a href="#">Oil & Gas</a><a href="#">Insights</a>
+                  <a href="#">Umum</a>
                 </div><!-- /.blog-meta-cat -->
-                <span class="blog__meta-date">Jan 20, 2019</span>
+                <span class="blog__meta-date">Jan 20, 2020</span>
               </div><!-- /.blog-meta -->
-              <h4 class="blog__title"><a href="#">Importers achieve cost savings through the First Sale rule!</a></h4>
+              <h4 class="blog__title"><a href="#">Peluncuran Perdana Situs Paneragroup.com!</a></h4>
               <a href="#" class="btn btn__secondary btn__link">
                 <i class="icon-arrow-right arrow-rounded"></i>
-                <span>Read More</span>
+                <span>Selengkapnya</span>
               </a>
             </div><!-- /.entry-content -->
           </div><!-- /.blog-item -->
@@ -205,14 +203,14 @@
             <div class="blog__content">
               <div class="blog__meta">
                 <div class="blog__meta-cat">
-                  <a href="#">Industry</a><a href="#">Construction</a>
+                  <a href="#">Sosial</a>
                 </div><!-- /.blog-meta-cat -->
                 <span class="blog__meta-date">Oct 18, 2019</span>
               </div><!-- /.blog-meta -->
-              <h4 class="blog__title"><a href="#">Cargo flow through better supply chain visibility, control.</a></h4>
+              <h4 class="blog__title"><a href="#">Penyelenggaraan Kegiatan Bakti Sosial</a></h4>
               <a href="#" class="btn btn__secondary btn__link">
                 <i class="icon-arrow-right arrow-rounded"></i>
-                <span>Read More</span>
+                <span>Selengkapnya</span>
               </a>
             </div><!-- /.entry-content -->
           </div><!-- /.blog-item -->
@@ -228,15 +226,14 @@
             <div class="blog__content">
               <div class="blog__meta">
                 <div class="blog__meta-cat">
-                  <a href="#">Engineering</a><a href="#">Distribution</a>
+                  <a href="#">ISO</a>
                 </div><!-- /.blog-meta-cat -->
                 <span class="blog__meta-date">Jan 20, 2019</span>
               </div><!-- /.blog-meta -->
-              <h4 class="blog__title"><a href="#">Importance of specialized focus in portfolio, Oil & Gas
-                  Logistics?</a></h4>
+              <h4 class="blog__title"><a href="#">Penerapan Sistem Manajemen Lingkungan</a></h4>
               <a href="#" class="btn btn__secondary btn__link">
                 <i class="icon-arrow-right arrow-rounded"></i>
-                <span>Read More</span>
+                <span>Selengkapnya</span>
               </a>
             </div><!-- /.entry-content -->
           </div><!-- /.blog-item -->
