@@ -12,8 +12,8 @@
   <!-- <meta name="description" content="Axima - Factory and Manufacturing Html Template"> -->
   <link href="<?= base_url(); ?>assets/images/favicon/p.png" rel="icon">
   <title><?= $this->lang->line('text_title'); ?></title>
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Heebo:400,500,700%7cRajdhani:400,500,600,700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/libraries.css">
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
   <link rel="stylesheet" href="<?= base_url(); ?>assets/plugins/lightbox/simple-lightbox.min.css">
@@ -115,56 +115,53 @@
     <div class="footer-top" style="padding-bottom: 10px; padding-top: 50px;">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-3 footer__widget footer__widget-about mb-30">
+          <div class="col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-about mb-30">
             <div class="footer__widget-content">
               <img src="<?= base_url(); ?>assets/images/logo/panera.png" alt="logo" style="background-color: white; padding: 5px; width: 200px; border-radius: 10px;">
               <!-- <a href="tel:00123968574" class="phone-link">
                 <i class="icon-phone"></i><span>(002) 123968574</span>
               </a> -->
               <p>Jalan Kapuk Raya No. 88 E, F, G Penjaringan Jakarta Utara DKI Jakarta 14460 Indonesia</p>
-              <a href="#" class="btn btn__primary btn__link btn__hover2">
+              <a href="<?= site_url('contact'); ?>" class="btn btn__primary btn__link btn__hover2">
                 <i class="icon-arrow-right arrow-rounded"></i>
                 <span><?= $this->lang->line('text_contact_us'); ?></span>
               </a>
             </div>
           </div><!-- /.col-lg-4 -->
-          <div class="col-sm-6 col-md-6 col-lg-3 footer__widget footer__widget-text">
-            <h6 class="footer__widget-title">Quick Contact</h6>
-            <div class="footer__widget-content">
-              <p>If you have any questions or need help, feel free to contact with our team.</p>
-              <!-- <a href="tel:00123968574" class="phone-link">
-                <i class="icon-phone"></i><span>(002) 123968574</span>
-              </a> -->
-              <p>2307 Beverley Rd Brooklyn, New York 11226 United States.</p>
-              <ul class="social__icons list-unstyled mt-30 mb-30">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-              </ul>
-            </div><!-- /.footer-widget-content -->
-          </div><!-- /.col-lg-3 -->
-          <div class="col-sm-6 col-md-6 col-lg-2 footer__widget footer__widget-nav">
-            <h6 class="footer__widget-title">Company</h6>
+          <div class="col-sm-12 col-md-12 col-lg-2 footer__widget footer__widget-nav">
+            <h6 class="footer__widget-title" style="margin-bottom: 17px;">Quick Link</h6>
             <div class="footer__widget-content">
               <nav>
                 <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Meet Our Team</a></li>
-                  <li><a href="#">News & Media</a></li>
-                  <li><a href="#">Case Studies</a></li>
-                  <li><a href="#">Contacts</a></li>
-                  <li><a href="#">Careers</a></li>
+                  <li><a href="<?= site_url('home'); ?>"><?= $this->lang->line('qlink_home'); ?></a></li>
+                  <li><a href="<?= site_url('profile'); ?>"><?= $this->lang->line('qlink_profile'); ?></a></li>
+                  <li><a href="<?= site_url('vision'); ?>"><?= $this->lang->line('qlink_vision'); ?></a></li>
+                  <li><a href="<?= site_url('news'); ?>"><?= $this->lang->line('qlink_news'); ?></a></li>
+                  <li><a href="<?= site_url('gallery'); ?>"><?= $this->lang->line('qlink_galeri'); ?></a></li>
+                </ul>
+              </nav>
+            </div><!-- /.footer-widget-content -->
+          </div><!-- /.col-lg-2 -->
+          <div class="col-sm-6 col-md-6 col-lg-2 footer__widget footer__widget-nav">
+            <h6 class="footer__widget-title"></h6>
+            <div class="footer__widget-content">
+              <nav>
+                <ul class="list-unstyled">
+                  <li><a href="<?= site_url('product/index/1'); ?>"><?= $this->lang->line('qlink_pellet'); ?></a></li>
+                  <li><a href="<?= site_url('product/index/2'); ?>"><?= $this->lang->line('qlink_bag'); ?></a></li>
+                  <li><a href="<?= site_url('management'); ?>"><?= $this->lang->line('qlink_hr'); ?></a></li>
+                  <li><a href="<?= site_url('career'); ?>"><?= $this->lang->line('qlink_career'); ?></a></li>
+                  <li><a href="<?= site_url('contact'); ?>"><?= $this->lang->line('qlink_contact'); ?></a></li>
                 </ul>
               </nav>
             </div><!-- /.footer-widget-content -->
           </div><!-- /.col-lg-2 -->
           <div class="col-12 col-sm-12 col-md-12 col-lg-4 footer__widget footer__widget-newsletter">
             <div class="footer__widget-content">
-              <p>Sign up for industry alerts, our latest news, thoughts, and insights from Axima. You may withdraw
-                your consent at any time!</p>
+              <p><?= $this->lang->line('subs_us'); ?></p>
               <form class="widget__newsletter-form">
                 <div class="form-group mb-0">
-                  <input type="text" class="form-control" placeholder="Your Email Address">
+                  <input type="text" class="form-control" placeholder="<?= $this->lang->line('subs_mail'); ?>">
                   <button type="submit" class="btn">
                     <i class="icon-arrow-right arrow-rounded"></i>
                   </button>
@@ -187,7 +184,8 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
               <div class="footer__copyright text-center">
-                <span> &copy; 2020 PAN ERA GROUP, Made with ❤️ by IT Team
+                <span>Copyright &copy; 2020 PAN ERA GROUP. All rights reserved.
+                <!-- Made with ❤️ by IT Team -->
                 </span>
               </div><!-- /.Footer-copyright -->
             </div><!-- /.col-lg-12 -->
