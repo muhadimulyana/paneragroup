@@ -17,3 +17,19 @@ $lang['placeholder_phone'] = 'Telepon';
 $lang['placeholder_mail'] = 'Email';
 $lang['placeholder_message'] = 'Pesan';
 $lang['text_submit'] = 'Kirim';
+
+//Quick Link
+$lang['qlink_home'] = 'Beranda';
+$lang['qlink_profile'] = 'Profil Perusahaan';
+$lang['qlink_vision'] = 'Visi & Misi';
+$lang['qlink_news'] = 'Berita';
+$lang['qlink_galeri'] = 'Galeri';
+$lang['qlink_pellet'] = 'Bijih Daur Ulang Plastik';
+$lang['qlink_bag'] = 'Kantong Plastik';
+$lang['qlink_hr'] = 'Manajemen SDM';
+$lang['qlink_career'] = 'Kesempatan Berkarir';
+$lang['qlink_contact'] = 'Kontak Kami';
+
+//Subscribe
+$lang['subs_us'] = '<b>Bergabung dengan kami</b>, untuk menerima berita terbaru dan informasi lowongan silakan submit alamat email anda.';
+$lang['subs_mail'] = 'Alamat Email Anda';
