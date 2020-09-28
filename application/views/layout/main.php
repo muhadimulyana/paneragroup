@@ -14,12 +14,20 @@
   <title><?= $this->lang->line('text_title'); ?></title>
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="<?= base_url(); ?>assets/plugins/foxx/foxx-css/foxx.css">
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/libraries.css">
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
   <link rel="stylesheet" href="<?= base_url(); ?>assets/plugins/lightbox/simple-lightbox.min.css">
   <style>
     .b-divider{
       padding-top:120px;
+    }
+
+    .img-cover {
+      background-size: cover;
+      width: 500px;
+      height: 300px;
+      display: block;
     }
 
     @media only screen and (max-width: 700px) {
@@ -172,7 +180,7 @@
               <ul class="footer__sitemap-links list-unstyled d-flex justify-content-end flex-wrap">
                 <li><a href="#">Terms & Conditions </a></li>
                 <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Sitemap</a></li>
+                <li><a id="home" href="javascript:void">Sitemap</a></li>
               </ul><!-- /.footer__sitemap-links -->
             </nav>
           </div><!-- /.col-lg-4 -->
@@ -195,14 +203,34 @@
   </footer><!-- /.Footer -->
   <button id="scrollTopBtn"><i class="fa fa-long-arrow-up"></i></button>
   </div><!-- /.wrapper -->
-
+  
   <script src="<?= base_url(); ?>assets/js/jquery-3.3.1.min.js"></script>
   <script src="<?= base_url(); ?>assets/js/plugins.js"></script>
   <script src="<?= base_url(); ?>assets/js/main.js"></script>
   <script src="<?= base_url(); ?>assets/plugins/lightbox/simple-lightbox.jquery.min.js"></script>
+  <script src="<?= base_url(); ?>assets/plugins/foxx/foxx.js"></script>
 
   <script>
+  $(document).ready(function(){
+    <?php if(!isset($_COOKIE['device-browser'])) : setcookie('device-browser', 'Chrome', time() + (86400 * 30), "/"); ?>
+      
+      fx.toast.info({
+        title:'This website use cookies',
+        body: 'By continuing to browse, you are agreeing to our use of cookies as explained in our <a style="text-decoration: underline;" target="_blank" href="https://www.paneragroup.com/company/privacy">Privacy and Policy</a>',
+        opt: {
+          css: 'light',
+          position: 'place_bottom_right',
+          timeOut: 20000,
+          delay: 0,
+          dismiss: true
+        }
+      })
+    <?php endif; ?>
+    
     $('.gallery a').simpleLightbox();
+  });
+
+
   </script>
 </body>
 

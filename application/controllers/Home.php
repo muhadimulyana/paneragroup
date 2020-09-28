@@ -17,6 +17,11 @@ class Home extends CI_Controller {
 		$data['map'] = '<li class="breadcrumb-item active">Dashboard</li>';
 		$lang = $this->lang->line('text_nation');
 
+		//set cookie if not exist
+		if(!isset($_COOKIE['device-browser'])) {
+			
+		} 
+
 		$data['slider'] = $this->home->getactiveSlider($lang)->result();
 
         $data['contents'] = $this->load->view('home/index', $data, true);

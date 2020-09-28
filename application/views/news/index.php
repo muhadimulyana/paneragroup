@@ -40,8 +40,7 @@
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="blog-item">
               <div class="blog__img">
-                <a href="#">
-                  <img src="<?= base_url(); ?>assets/images/about/7.jpg" alt="blog image">
+                <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/images/about/7.jpg');">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
@@ -63,18 +62,17 @@
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="blog-item">
               <div class="blog__img">
-                <a href="#">
-                  <img src="<?= base_url(); ?>assets/images/about/7.jpg" alt="blog image">
+                <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/images/about/7.jpg');">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
                 <div class="blog__meta">
                   <div class="blog__meta-cat">
-                    <a href="#">Industry</a><a href="#">Construction</a>
+                    <a href="#">Oil & Gas</a><a href="#">Insights</a>
                   </div><!-- /.blog-meta-cat -->
-                  <span class="blog__meta-date">Oct 18, 2019</span>
+                  <span class="blog__meta-date">Jan 20, 2019</span>
                 </div><!-- /.blog-meta -->
-                <h4 class="blog__title"><a href="#">Cargo flow through better supply chain visibility, control.</a></h4>
+                <h4 class="blog__title"><a href="#">Importers achieve cost savings through the First Sale rule!</a></h4>
                 <a href="#" class="btn btn__secondary btn__link">
                   <i class="icon-arrow-right arrow-rounded"></i>
                   <span>Read More</span>
@@ -86,19 +84,17 @@
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="blog-item">
               <div class="blog__img">
-                <a href="#">
-                  <img src="<?= base_url(); ?>assets/images/about/7.jpg" alt="blog image">
+                <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/images/about/7.jpg');">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
                 <div class="blog__meta">
                   <div class="blog__meta-cat">
-                    <a href="#">Engineering</a><a href="#">Distribution</a>
+                    <a href="#">Oil & Gas</a><a href="#">Insights</a>
                   </div><!-- /.blog-meta-cat -->
                   <span class="blog__meta-date">Jan 20, 2019</span>
                 </div><!-- /.blog-meta -->
-                <h4 class="blog__title"><a href="#">Importance of specialized focus in portfolio, Oil & Gas
-                    Logistics?</a></h4>
+                <h4 class="blog__title"><a href="#">Importers achieve cost savings through the First Sale rule!</a></h4>
                 <a href="#" class="btn btn__secondary btn__link">
                   <i class="icon-arrow-right arrow-rounded"></i>
                   <span>Read More</span>
@@ -110,18 +106,17 @@
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="blog-item">
               <div class="blog__img">
-                <a href="#">
-                  <img src="<?= base_url(); ?>assets/images/about/7.jpg" alt="blog image">
+                <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/images/about/7.jpg');">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
                 <div class="blog__meta">
                   <div class="blog__meta-cat">
-                    <a href="#">News</a><a href="#">Industry</a>
+                    <a href="#">Oil & Gas</a><a href="#">Insights</a>
                   </div><!-- /.blog-meta-cat -->
-                  <span class="blog__meta-date">Oct 24, 2017</span>
+                  <span class="blog__meta-date">Jan 20, 2019</span>
                 </div><!-- /.blog-meta -->
-                <h4 class="blog__title"><a href="#">Changes to our Trade Credit Policy and Procedures</a></h4>
+                <h4 class="blog__title"><a href="#">Importers achieve cost savings through the First Sale rule!</a></h4>
                 <a href="#" class="btn btn__secondary btn__link">
                   <i class="icon-arrow-right arrow-rounded"></i>
                   <span>Read More</span>
@@ -133,18 +128,17 @@
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="blog-item">
               <div class="blog__img">
-                <a href="#">
-                  <img src="<?= base_url(); ?>assets/images/about/7.jpg" alt="blog image">
+                <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/images/about/7.jpg');">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
                 <div class="blog__meta">
                   <div class="blog__meta-cat">
-                    <a href="#">Insights</a><a href="#">Industry</a>
+                    <a href="#">Oil & Gas</a><a href="#">Insights</a>
                   </div><!-- /.blog-meta-cat -->
-                  <span class="blog__meta-date">Oct 27, 2017</span>
+                  <span class="blog__meta-date">Jan 20, 2019</span>
                 </div><!-- /.blog-meta -->
-                <h4 class="blog__title"><a href="#">New Additions to our great Metro trucks Fleet</a></h4>
+                <h4 class="blog__title"><a href="#">Importers achieve cost savings through the First Sale rule!</a></h4>
                 <a href="#" class="btn btn__secondary btn__link">
                   <i class="icon-arrow-right arrow-rounded"></i>
                   <span>Read More</span>
@@ -156,18 +150,17 @@
           <div class="col-sm-12 col-md-6 col-lg-4">
             <div class="blog-item">
               <div class="blog__img">
-                <a href="#">
-                  <img src="<?= base_url(); ?>assets/images/about/7.jpg" alt="blog image">
+                <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/images/about/7.jpg');">
                 </a>
               </div><!-- /.entry-img -->
               <div class="blog__content">
                 <div class="blog__meta">
                   <div class="blog__meta-cat">
-                    <a href="#">News</a><a href="#">Logistics</a>
+                    <a href="#">Oil & Gas</a><a href="#">Insights</a>
                   </div><!-- /.blog-meta-cat -->
-                  <span class="blog__meta-date">Oct 24, 2017</span>
+                  <span class="blog__meta-date">Jan 20, 2019</span>
                 </div><!-- /.blog-meta -->
-                <h4 class="blog__title"><a href="#">The new Driver Training & Recruitment Program</a></h4>
+                <h4 class="blog__title"><a href="#">Importers achieve cost savings through the First Sale rule!</a></h4>
                 <a href="#" class="btn btn__secondary btn__link">
                   <i class="icon-arrow-right arrow-rounded"></i>
                   <span>Read More</span>
