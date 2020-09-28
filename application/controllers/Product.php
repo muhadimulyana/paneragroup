@@ -10,8 +10,9 @@ class Product extends CI_Controller {
 	// 	//$this->load->model('Menu_m');
 	// }
 
-	public function index($id = 1)
+	public function index()
 	{
+		$id = isset($_GET['id']) ? $_GET['id'] : 1 ;
 		$lang = $this->lang->line('text_nation');
         $data = [];
         if($id == 1){

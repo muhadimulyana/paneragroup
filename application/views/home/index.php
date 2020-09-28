@@ -173,9 +173,8 @@
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="blog-item">
             <div class="blog__img">
-              <a href="#">
-                <img src="<?= base_url(); ?>assets/images/blog/grid/1.jpg" alt="blog image">
-              </a>
+              <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/images/about/7.jpg');">
+                </a>
             </div><!-- /.entry-img -->
             <div class="blog__content">
               <div class="blog__meta">
@@ -196,9 +195,8 @@
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="blog-item">
             <div class="blog__img">
-              <a href="#">
-                <img src="<?= base_url(); ?>assets/images/blog/grid/2.jpg" alt="blog image">
-              </a>
+              <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/images/about/7.jpg');">
+                </a>
             </div><!-- /.entry-img -->
             <div class="blog__content">
               <div class="blog__meta">
@@ -219,9 +217,8 @@
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="blog-item">
             <div class="blog__img">
-              <a href="#">
-                <img src="<?= base_url(); ?>assets/images/blog/grid/3.jpg" alt="blog image">
-              </a>
+              <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/images/about/7.jpg');">
+                </a>
             </div><!-- /.entry-img -->
             <div class="blog__content">
               <div class="blog__meta">

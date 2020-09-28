@@ -50,10 +50,12 @@
       </div> -->
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid px-0">
-          <a class="navbar-brand" href="<?= site_url(); ?>">
-            <img src="<?= base_url(); ?>assets/images/logo/panera-light2.png" class="logo-light" style="width: 200px;" alt="logo">
+          <a class="navbar-brand" style="background-color: #fff;" href="<?= site_url(); ?>">
+            <img src="<?= base_url(); ?>assets/images/logo/panera.png" class="logo-light" style="width: 200px;" alt="logo">
             <img src="<?= base_url(); ?>assets/images/logo/panera.png" class="logo-dark" width="180px" alt="logo">
           </a>
+          <div style="border-right: 2px solid #bebebe; height: 50px;">
+          </div>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
           </button>
