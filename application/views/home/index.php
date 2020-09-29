@@ -34,13 +34,13 @@
       <div class="container">
         <div class="row heading mb-40">
           <div class="col-sm-12 col-md-12 col-lg-6">
-            <span class="heading__subtitle">Selamat Datang di PAN ERA GROUP</span>
-            <h2 class="heading__title">Kami adalah organisasi yang berdedikasi pada alam, berorientasi pada kualitas.</h2>
+            <span class="heading__subtitle"><?= $this->lang->line('welcome_message'); ?></span>
+            <h2 class="heading__title"><?= $this->lang->line('motto'); ?></h2>
           </div><!-- /.col-lg-6 -->
           <div class="col-sm-12 col-md-12 col-lg-6">
-            <p class="heading__desc">Kondisi virus Covid-19 membuat beberapa distributor kami harus menyesuaikan jam operasional. Namun kami tetap berkomitmen untuk memenuhi kebutuhan Anda, silahkan untuk menghubungi nomor telepon kami agar mendapatkan contact distributor produk plastik kami.</p>
+            <p class="heading__desc"><?= $this->lang->line('covid_message'); ?></p>
             <div class="d-flex">
-              <a href="http://loco.co.id:1100" target="_blank" class="btn btn__primary mt-30 mr-30">Selengkapnya</a>
+              <a href="http://loco.co.id:1100" target="_blank" class="btn btn__primary mt-30 mr-30"><?= $this->lang->line('text_learn_more'); ?></a>
               <div class="contact-chip mt-30">
                 <div class="contact__chip-img">
                   <img src="<?= base_url(); ?>assets/images/testimonials/thumbs/4.png" alt="avatar">
@@ -62,11 +62,11 @@
                   <!-- <i class="icon-tank-2"></i> -->
                   <img src="<?= base_url(); ?>assets/images/services/building.svg" style="width: 80px;" alt="">
                 </div><!-- /.service__icon -->
-                <h4 class="service__title">Profil<br> Perusahaan</h4>
-                <p class="service__desc">Pengenalan perusahaan - perusahaan yang tergabung dalam Pan Era Group</p>
+                <h4 class="service__title"><?= $this->lang->line('menu_profile'); ?></h4>
+                <p class="service__desc"><?= $this->lang->line('menu_profile_detail'); ?></p>
                 <a href="#" class="btn btn__secondary btn__link">
                   <i class="icon-arrow-right arrow-rounded"></i>
-                  <span>Read More</span>
+                  <span><?= $this->lang->line('text_read_more'); ?></span>
                 </a>
               </div><!-- /.service-content -->
             </div><!-- /.service-item -->
@@ -75,11 +75,11 @@
                 <div class="service__icon">
                 <img src="<?= base_url(); ?>assets/images/services/idea.svg" style="width: 80px;" alt="">
                 </div><!-- /.service__icon -->
-                <h4 class="service__title">Visi & <br>Misi</h4>
-                <p class="service__desc">Ambisi kami yang kemudian menjadi daya dorong untuk terus maju dan berkembang</p>
+                <h4 class="service__title"><?= $this->lang->line('menu_vision'); ?></h4>
+                <p class="service__desc"><?= $this->lang->line('menu_vision_detail'); ?></p>
                 <a href="#" class="btn btn__secondary btn__link">
                   <i class="icon-arrow-right arrow-rounded"></i>
-                  <span>Read More</span>
+                  <span><?= $this->lang->line('text_read_more'); ?></span>
                 </a>
               </div><!-- /.service-content -->
             </div><!-- /.service-item -->
@@ -88,11 +88,11 @@
                 <div class="service__icon">
                 <img src="<?= base_url(); ?>assets/images/services/recycle.svg" style="width: 80px;" alt="">
                 </div><!-- /.service__icon -->
-                <h4 class="service__title">Biji Plastik <br> Daur Ulang</h4>
-                <p class="service__desc">Produk ramah lingkungan yang menjadi inti dan asal identitas kami</p>
+                <h4 class="service__title"><?= $this->lang->line('menu_product1'); ?></h4>
+                <p class="service__desc"><?= $this->lang->line('menu_product1_detail'); ?></p>
                 <a href="#" class="btn btn__secondary btn__link">
                   <i class="icon-arrow-right arrow-rounded"></i>
-                  <span>Read More</span>
+                  <span><?= $this->lang->line('text_read_more'); ?></span>
                 </a>
               </div><!-- /.service-content -->
             </div><!-- /.service-item -->
@@ -101,11 +101,11 @@
                 <div class="service__icon">
                 <img src="<?= base_url(); ?>assets/images/services/reusable.svg" style="width: 80px;" alt="">
                 </div><!-- /.service__icon -->
-                <h4 class="service__title">Kantong <br> Plastik</h4>
-                <p class="service__desc">LOCO, kantong plastik kebanggaan besar kami yang kami kembangkan</p>
+                <h4 class="service__title"><?= $this->lang->line('menu_product2'); ?></h4>
+                <p class="service__desc"><?= $this->lang->line('menu_product2_detail'); ?></p>
                 <a href="#" class="btn btn__secondary btn__link">
                   <i class="icon-arrow-right arrow-rounded"></i>
-                  <span>Read More</span>
+                  <span><?= $this->lang->line('text_read_more'); ?></span>
                 </a>
               </div><!-- /.service-content -->
             </div><!-- /.service-item -->
@@ -114,11 +114,11 @@
                 <div class="service__icon">
                 <img src="<?= base_url(); ?>assets/images/services/hired.svg" style="width: 80px;" alt="">
                 </div><!-- /.service__icon -->
-                <h4 class="service__title">Manajemen <br> SDM</h4>
-                <p class="service__desc">Filosofi manajemen sumber daya manusia kami untuk berkembang bersama</p>
+                <h4 class="service__title"><?= $this->lang->line('menu_hr'); ?></h4>
+                <p class="service__desc"><?= $this->lang->line('menu_hr_detail'); ?></p>
                 <a href="#" class="btn btn__secondary btn__link">
                   <i class="icon-arrow-right arrow-rounded"></i>
-                  <span>Read More</span>
+                  <span><?= $this->lang->line('text_read_more'); ?></span>
                 </a>
               </div><!-- /.service-content -->
             </div><!-- /.service-item -->
@@ -127,11 +127,11 @@
                 <div class="service__icon">
                 <img src="<?= base_url(); ?>assets/images/services/job-search.svg" style="width: 80px;" alt="">
                 </div><!-- /.service__icon -->
-                <h4 class="service__title">Kesempatan <br> Berkarir</h4>
-                <p class="service__desc">Daftar lowongan posisi yang sedang tersedia beserta instruksi pelamaran</p>
+                <h4 class="service__title"><?= $this->lang->line('menu_job'); ?></h4>
+                <p class="service__desc"><?= $this->lang->line('menu_job_detail'); ?></p>
                 <a href="#" class="btn btn__secondary btn__link">
                   <i class="icon-arrow-right arrow-rounded"></i>
-                  <span>Read More</span>
+                  <span><?= $this->lang->line('text_read_more'); ?></span>
                 </a>
               </div><!-- /.service-content -->
             </div><!-- /.service-item -->
@@ -163,8 +163,8 @@
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
           <div class="heading text-center mb-50">
-            <span class="heading__subtitle">Media dan Informasi</span>
-            <h2 class="heading__title">Berita dan Informasi Terbaru</h2>
+            <span class="heading__subtitle"><?= $this->lang->line('section_media'); ?></span>
+            <h4 class=""><?= $this->lang->line('section_media_detail'); ?></h4>
           </div><!-- /.heading -->
         </div><!-- /.col-lg-6 -->
       </div><!-- /.row-->
@@ -173,7 +173,7 @@
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="blog-item">
             <div class="blog__img">
-              <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/images/about/7.jpg');">
+              <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/contents/images/slider/n1.png');">
                 </a>
             </div><!-- /.entry-img -->
             <div class="blog__content">
@@ -183,7 +183,7 @@
                 </div><!-- /.blog-meta-cat -->
                 <span class="blog__meta-date">Jan 20, 2020</span>
               </div><!-- /.blog-meta -->
-              <h4 class="blog__title"><a href="#">Peluncuran Perdana Situs Paneragroup.com!</a></h4>
+              <h4 class="blog__title" style="font-size: 20px;"><a href="#">Peluncuran Perdana Situs Paneragroup.com!</a></h4>
               <a href="#" class="btn btn__secondary btn__link">
                 <i class="icon-arrow-right arrow-rounded"></i>
                 <span>Selengkapnya</span>
@@ -195,7 +195,7 @@
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="blog-item">
             <div class="blog__img">
-              <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/images/about/7.jpg');">
+              <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/contents/images/slider/n2.png');">
                 </a>
             </div><!-- /.entry-img -->
             <div class="blog__content">
@@ -205,7 +205,7 @@
                 </div><!-- /.blog-meta-cat -->
                 <span class="blog__meta-date">Oct 18, 2019</span>
               </div><!-- /.blog-meta -->
-              <h4 class="blog__title"><a href="#">Penyelenggaraan Kegiatan Bakti Sosial</a></h4>
+              <h4 class="blog__title" style="font-size: 20px;"><a href="#">Penyelenggaraan Kegiatan Bakti Sosial</a></h4>
               <a href="#" class="btn btn__secondary btn__link">
                 <i class="icon-arrow-right arrow-rounded"></i>
                 <span>Selengkapnya</span>
@@ -217,7 +217,7 @@
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="blog-item">
             <div class="blog__img">
-              <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/images/about/7.jpg');">
+              <a href="#" class="img-cover" style="background-image: url('<?= base_url(); ?>assets/contents/images/slider/n3.png');">
                 </a>
             </div><!-- /.entry-img -->
             <div class="blog__content">
@@ -227,7 +227,7 @@
                 </div><!-- /.blog-meta-cat -->
                 <span class="blog__meta-date">Jan 20, 2019</span>
               </div><!-- /.blog-meta -->
-              <h4 class="blog__title"><a href="#">Penerapan Sistem Manajemen Lingkungan</a></h4>
+              <h4 class="blog__title" style="font-size: 20px;"><a href="#">Penerapan Sistem Manajemen Lingkungan</a></h4>
               <a href="#" class="btn btn__secondary btn__link">
                 <i class="icon-arrow-right arrow-rounded"></i>
                 <span>Selengkapnya</span>

@@ -26,7 +26,7 @@
     .img-cover {
       background-size: cover;
       width: 500px;
-      height: 300px;
+      height: 220px;
       display: block;
     }
 
@@ -54,7 +54,7 @@
             <img src="<?= base_url(); ?>assets/images/logo/panera.png" class="logo-light" style="width: 200px;" alt="logo">
             <img src="<?= base_url(); ?>assets/images/logo/panera.png" class="logo-dark" width="180px" alt="logo">
           </a>
-          <div style="border-right: 2px solid #bebebe; height: 50px;">
+          <div style="border-right: 2px solid #bebebe; height: 50px; margin-right: 10px;">
           </div>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
